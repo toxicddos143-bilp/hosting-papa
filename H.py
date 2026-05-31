@@ -33,7 +33,7 @@ os.makedirs(IROTECH_DIR, exist_ok=True, mode=0o755)
 TOKEN = os.environ.get('TELEGRAM_BOT_TOKEN', '8708866510:AAGEMcSiGdrqbol8vMW838-njFtF9Nsl3xY')
 OWNER_ID = int(os.environ.get('OWNER_ID', 6948857889))
 ADMIN_ID = int(os.environ.get('ADMIN_ID', 8160277203))
-YOUR_USERNAME = os.environ.get('YOUR_USERNAME', '@PAPAOWNER01','@YOUTUBEADU')
+YOUR_USERNAME = os.environ.get('YOUR_USERNAME', '@PAPAOWNER01')
 UPDATE_CHANNEL = os.environ.get('UPDATE_CHANNEL', 'https://t.me/+ctIcYnh1mqUwMzY1')
 
 A4F_API_URL = "https://samuraiapi.in/v1/chat/completions"
